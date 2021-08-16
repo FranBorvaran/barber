@@ -1,0 +1,15 @@
+.navbar{
+    background-color: $eerie-black;
+    color :$white;
+
+
+    .nav-link{
+        color: $white !important;
+        font-family: $roboto;
+            }
+    
+    .nav-link:hover{
+        color: $spanish-pink !important;
+    }
+}
+

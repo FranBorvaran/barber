@@ -1,0 +1,88 @@
+
+.articulo{
+    padding-top: 50px;
+
+    &__fecha{
+        padding: 15px 0px;
+        margin: 10px 0px;
+        font-family: $playfair;
+        font-size: $large;
+        color: $raisin-black;
+    }
+
+    &__texto{
+        line-height: 40px;
+        padding-top: 20px;
+        font-family: $roboto;
+        color: $eerie-black;
+    }
+
+    &__texto-color{
+        color: $fuzzy-wuzzy;
+    }
+}
+
+
+.naomi{
+    padding-top: 40px;
+
+    &__imagen{
+        padding-right: 0px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+    &__nombre{
+        font-family: $playfair;
+        font-style: italic;
+    }
+
+    &__texto{
+        font-family: $roboto;
+        font-size: $medium;
+        color: $nickel;
+    }
+
+    &__rosado{
+        color: $spanish-pink; 
+        font-family: $roboto;
+    }
+}
+
+.page{
+    background-color: $Platinum;
+    justify-content: center;
+        
+
+    &__anterior{
+        color: black !important;
+    }
+
+    &__siguiente{
+        color: black !important;
+    }
+
+    &__link2{
+        background-color: $nickel !important;
+        color: black !important;
+        border-color: $Platinum !important;
+    }
+    &__link1{
+        color: black !important;
+    }
+
+    
+    &__link3{
+        color: black !important;
+    }
+}
+
+.footer{
+    background-color: $eerie-black;
+
+    &__image{
+        padding: 40px 0px
+    }
+}
+
+

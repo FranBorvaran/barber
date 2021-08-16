@@ -1,0 +1,5 @@
+@mixin respond-to($brekpoint){
+    @media (min-width:$brekpoint){
+        @content
+    }
+}

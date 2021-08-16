@@ -1,0 +1,31 @@
+.header{
+    background-image: url(../images/post-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width:100%;
+
+
+    &__texto{
+        color: $white;
+        text-align: center;
+        padding-top: 200px;
+        font-family: $playfair;
+        font-size: $x-large;
+        font-weight: 900;
+        font-style: italic;
+
+        @include respond-to($bp-md){
+            font-size: $xx-large;
+            width:60%;
+            margin:0 auto;
+        }
+    }
+    
+    &__flechas{
+        text-align: center;
+        padding-top:200px;
+        
+    }
+}
